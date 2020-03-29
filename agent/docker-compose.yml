@@ -10,4 +10,5 @@ services:
       JAVA_XMS: 128m
       haystack_env_agents_spans_port: 35000
     ports:
-      - "35000:35000"
+#      - "35000:35000"
+      - "9411:9411"
